@@ -1,0 +1,28 @@
+# Reglas de Cursor para el Proyecto Asistente UNA
+
+1. **Telegram Bot:**
+   - Usa EXCLUSIVAMENTE la librería `pyTelegramBotAPI` (telebot).
+   - No uses `python-telegram-bot` ni `aiogram` a menos que se solicite un cambio de arquitectura radical.
+   - El bot debe correr usando `bot.infinity_polling()`.
+
+2. **Peticiones a Moodle (API REST):**
+   - El endpoint principal para funciones es: `https://grado.pol.una.py/webservice/rest/server.php`.
+   - SIEMPRE que uses la librería `requests` contra el dominio `grado.pol.una.py`, debes incluir `verify=False`.
+   - SIEMPRE debes importar `urllib3` y ejecutar `urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)` para no llenar la consola de basura.
+   - Las peticiones a Moodle siempre deben llevar en los parámetros: `wstoken`, `wsfunction` y `moodlewsrestformat='json'`.
+
+3. **Inteligencia Artificial (RAG):**
+   - Usa `langchain` como framework principal.
+   - Para la base de datos vectorial, prefiere herramientas ligeras y locales que no requieran Docker (ej. `ChromaDB` o `FAISS`).
+   - Para cargar PDFs, usa `PyPDFLoader` de LangChain.
+
+4. **Programación de Tareas (Schedules):**
+   - Si se requiere enviar mensajes a una hora específica, asegúrate de que el bucle de tiempo (`schedule.run_pending()`) corra en un hilo (Thread) separado para NO bloquear el `infinity_polling()` de Telegram.
+
+5. **Manejo de Secretos:**
+   - NUNCA escribas tokens de Telegram, Moodle o APIs de IA directamente en el código.
+   - Asume siempre que existen en el archivo `.env` y cárgalos con `os.getenv()`.
+
+6. **Idioma y Tono:**
+   - Los comentarios del código, logs de terminal y mensajes del bot deben estar en Español.
+   - El tono del bot debe ser útil, amigable y conciso.
