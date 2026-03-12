@@ -1,0 +1,873 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ASIGNATURA;;;;CARRERA;;;;;;DOCENTE;;;;1er. Parcial;;;2do. Parcial;;;1er. Final;;;Revisión;;2do. Final;;;Revisión;;Mesa Examinadora;;;;;;;;;;;;;;;
+Item;DPTO.;Asignatura;Nivel;Sem/Grupo;Sigla carrera;Enfasis;Plan;Turno;Sección;Plataforma de aula virtual;Tít;Apellido;Nombre;Correo Institucional;Día;Hora;AULA;Día;Hora;AULA;Día;Hora;AULA;Día;Hora;Día;Hora;AULA;Día;Hora;Presidente;Miembro;Miembro;AULA;Lunes;AULA;Martes;AULA;Miércoles;AULA;Jueves;AULA;Viernes;AULA;Sábado;Fechas de clases de sábados (Turno Noche)
+1;DG;Administración I;1;1;LCIk;-- --;2009;M;MI;EDUCA;C.P.;Ríos Argaña;Leidy Jessica;ljrios@pol.una.py;Mie 15/04/26;08:00;;Mie 03/06/26;08:00;;Mie 24/06/26;08:00;;;;Mie 08/07/26;08:00;;;;C.P. Leidy Jessica Ríos Argaña ;Ms. Cynthia Elizabeth Segovia Domínguez;Ms. Oilda Sánchez Quintana;;;Lab HPC;09:15 - 10:45;Lab HPC;10:00 - 12:15;;;;;;;
+2;DG;Administración I;1;1;LCIk;-- --;2009;M;MJ;EDUCA;Ms.;Sánchez Quintana;Oílda;osanchez@pol.una.py;Mie 15/04/26;08:00;;Mie 03/06/26;08:00;;Mie 24/06/26;08:00;;;;Mie 08/07/26;08:00;;;;Ms. Oilda Sánchez Quintana;C.P. Leidy Jessica Ríos Argaña;Ms. Cynthia Elizabeth Segovia Domínguez;;;E02;09:15 - 10:45;E02;10:00 - 12:15;;;;;;;
+3;DG;Administración I;1;1;LCIk;-- --;2009;N;NB;EDUCA;Lic. ;Riveros Báez;Julio Ramón;jrriveros@pol.una.py;Jue 16/04/26;19:30;;Jue 04/06/26;19:30;;Jue 25/06/26;19:30;;;;Jue 09/07/25;19:30;;;;Lic. Julio Ramón Riveros Báez;Ms. Cynthia Elizabeth Segovia Domínguez;C.P. Leidy Jessica Ríos Argaña;;;E02;20:45 - 22:15;;;E02;19:00 - 20:30;;;E02;07:30 - 11:30;"28/03; 23/05"
+4;DG;Administración II;2;2;LCIk;-- --;2009;M;MI;EDUCA;Dr.;Cataldo Samudio;Nicolás Javier;ncataldo@pol.una.py;Mar 14/04/26;08:00;;Mar 02/06/26;08:00;;Jue 25/06/26;08:00;;;;Jue 09/07/25;08:00;;;;Dr. Nicolás Javier Cataldo Samudio;Ms. Julio Néstor Sánchez Laspina;Econ. Jerson Fernández Caje;;;F14;10:00 - 12:15;;;;;F14;07:30 - 09:00;;;
+5;DG;Administración II;2;2;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Sánchez Laspina;Julio Néstor;julio@pol.una.py;Mar 14/04/26;19:30;;Mar 02/06/26;19:30;;Jue 25/06/26;19:30;;;;Jue 09/07/25;19:30;;;;Ms. Julio Néstor Sánchez Laspina;Ms. José Anibal Coronel Ruíz Díaz;Econ. Jerson Fernández Caje;;;I02;20:45 - 22:15;;;I02;19:00 - 20:30;;;I02;07:30 - 11:30;"28/03; 23/05"
+6;DG;Administración II;2;2;LCIk;-- --;2009;N;NC;EDUCA;Econ.;Fernández Caje;Jerson ;jfernandez@pol.una.py;Mar 14/04/26;19:30;;Mar 02/06/26;19:30;;Jue 25/06/26;19:30;;;;Jue 09/07/25;19:30;;;;Econ. Jerson Fernández Caje;Ms. Julio Néstor Sánchez Laspina;Ms. José Anibal Coronel Ruíz Díaz;;;F13;20:45 - 22:15;;;F13;19:00 - 20:30;;;F13;07:30 - 11:30;"28/03; 23/05"
+7;DG;Administración III;3;3;LCIk;-- --;2009;T;TQ;EDUCA;Ms.;Ramírez Barboza;Estela Mary;emramirez@pol.una.py;Jue 16/04/26;15:00;;Jue 04/06/26;15:00;;Jue 25/06/26;15:00;;;;Jue 09/07/25;15:00;;;;Ms. Estela Mary Ramírez Barboza;Lic. Zulma Lucía Demattei  Ortiz;Lic. Osvaldo David Sosa Cabrera;;;A53;17:15 - 18:45;;;A53;16:30 -18:45;;;;;
+8;DG;Administración III;3;3;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Ramírez Barboza;Estela Mary;emramirez@pol.una.py;Jue 16/04/26;19:30;;Jue 04/06/26;19:30;;Jue 25/06/26;19:30;;;;Jue 09/07/25;19:30;;;;Ms. Estela Mary Ramírez Barboza;Lic. Zulma Lucía Demattei  Ortiz;Lic. Osvaldo David Sosa Cabrera;;;A53;20:45 - 22:15;;;A53;19:00 - 20:30;;;I03;07:30 - 11:30;"28/03; 23/05"
+9;DG;Administración III;3;3;LCIk;-- --;2009;N;NB;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Jue 16/04/26;19:30;;Jue 04/06/26;19:30;;Jue 25/06/26;19:30;;;;Jue 09/07/25;19:30;;;;;;;;;I01;20:45 - 22:15;;;I01;19:00 - 20:30;;;I01;07:30 - 11:30;"28/03; 23/05"
+10;DG;Administración IV;4;5;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Mareco de Velázquez;Norma Beatriz;nbmareco@pol.una.py;Mie 15/04/26;19:30;;Mie 03/06/26;19:30;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Ms. María Griselda Palacios Ferreira;Ms. Alcides Javier Torres Gutt;Lic. Armín Jesús Molas Ovando;;;;;F37;19:00 - 20:30;F37;20:45 - 22:15;;;F39;07:30 - 11:30;"28/03; 23/05"
+11;DG;Administración V;5;7;LCIk;-- --;2009;T;TQ;EDUCA;Ms.;Torres Gutt;Alcides Javier;torresgutt@pol.una.py;Mie 15/04/26;15:00;;Mie 03/06/26;15:00;;Mie 24/06/26;15:00;;;;Mie 08/07/26;15:00;;;;Ms. Alcides Javier Torres Gutt;Ms. María Griselda Palacios Ferreira;Lic. Armín Jesús Molas Ovando;;;;;Lab AL;14:30 - 16:00;Lab AL;16:15 - 18:30;;;;;
+12;DG;Administración V;5;7;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Molas Ovando;Armin Jesús;arminamolas@pol.una.py;Mie 15/04/26;19:30;;Mie 03/06/26;19:30;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Ms. Armin Jesús Molas Ovando;Ms. Alcides Javier Torres Gutt;Ms. María Griselda Palacios Ferreira;F40;20:45 - 22:15;;;F40;19:00 - 20:30;;;;;F40;07:30 - 11:30;"21/03; 16/05"
+13;DEI;Algorítmica I;1;1;LCIk;-- --;2009;T;TQ;EDUCA;Lic.;Galeano;Juan Ramón;jrgaleano@pol.una.py;Vie 10/04/26;15:00;;Vie 29/05/26;15:00;;Mie 17/06/26;15:00;;;;Mie 01/07/26;15:00;;;;Lic. Juan Ramón Galeano ;Lic. Miguel Ángel Téllez Servián;Ing. Cristian Rodrigo Aceval Sosa;;;;;;;;;Lab SO;13:30 - 17:15;;;
+14;DEI;Algorítmica I;1;1;LCIk;-- --;2009;N;NA;EDUCA;Ing.;Aceval Sosa;Cristian Rodrigo;caceval@pol.una.py;Mie 08/04/26;19:30;;Mie 27/05/26;19:30;;Mie 17/06/26;19:30;;;;Mie 01/07/26;19:30;;;;Ing. Cristian Rodrigo Aceval Sosa;Lic. Juan Ramón Galeano;Lic. Miguel Ángel Téllez Servián;;;;;F14;19:00 - 20:30;Lab BD;20:45 - 22:15;;;F13;07:30 - 11:30;"21/03; 16/05"
+15;DEI;Algorítmica II;2;2;LCIk;-- --;2009;M;MI;EDUCA;Lic.;Téllez Servián;Miguel Ángel;mtellez@pol.una.py;Mie 08/04/26;08:00;;Mie 27/05/26;08:00;;Mie 17/06/26;08:00;;;;Mie 01/07/26;08:00;;;;Lic. Miguel Ángel Téllez Servián;Lic. Juan Ramón Galeano;Ing. Cristian Rodrigo Aceval Sosa;;;;;Lab BD;10:00 - 11:30;Lab BD;07:30 - 09:45;;;;;
+16;DEI;Algorítmica II;2;2;LCIk;-- --;2009;N;NA;EDUCA;Ing.;Saucedo Arguello;Fernando Ramón;frsaucedo@pol.una.py;Mie 08/04/26;19:30;;Mie 27/05/26;19:30;;Mie 17/06/26;19:30;;;;Mie 01/07/26;19:30;;;;Ing. Fernando Ramón Saucedo Arguello;Ing. Cristian Rodrigo Aceval Sosa;Lic. Miguel Ángel Téllez Servián;;;;;F39;19:00 - 20:30;Lab HPC;20:45 - 22:15;;;F31;07:30 - 11:30;"21/03; 16/05"
+17;DEI;Algorítmica II;2;2;LCIk;-- --;2009;N;NB;EDUCA;Lic.;Dominguez Villamayor;Marlene;marle_bourdon@pol.una.py;Mie 08/04/26;19:30;;Mie 27/05/26;19:30;;Mie 17/06/26;19:30;;;;Mie 01/07/26;19:30;;;;Lic. Marlene Dominguez Villamayor;Ing. Fernando Ramón Saucedo Arguello;Ing. Cristian Rodrigo Aceval Sosa;;;;;I02;19:00 - 20:30;Lab HPC;20:45 - 22:15;;;I02;07:30 - 11:30;"21/03; 16/05"
+18;DEI;Auditoría y Control de Calidad;8;8;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Hulskamp Quintana;Delia Mirna;;Mie 15/04/26;19:30;;Mie 03/06/26;19:30;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Lic. Severino Marco Antonio Leiva Fernández;Lic. Delia Mirna Hulskamp Quintana;Lic. Osmar Augusto Cabrera Herebia;;;;;F18;19:00 - 20:30;F18;20:45 - 22:15;;;F11;07:30 - 11:30;"14/03; 09/05"
+19;DEI;Base de Datos I;4;4;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Meza Benítez;Jorge Roberto;jmeza@pol.una.py;Mar 14/04/26;19:30;;Mar 02/06/26;19:30;;Mar 23/06/26;19:30;;;;Mar 14/07/26;19:30;;;;Lic. Jorge Roberto Meza Benítez;Lic. Delia Mirna Hulskamp Quintana;Lic. Carmen María Rivas Escobar;;;Lab AL;20:45 - 22:15;;;Lab BD;19:00 - 20:30;;;A50;07:30 - 11:30;"28/03; 23/05"
+20;DEI;Base de Datos I;4;4;LCIk;-- --;2009;N;NB;EDUCA;Lic.;González Sullow;Carolina;;Mar 14/04/26;19:30;;Mar 02/06/26;19:30;;Mar 23/06/26;19:30;;;;Mar 14/07/26;19:30;;;;;;;;;F33;20:45 - 22:15;;;Lab AL;19:00 - 20:30;;;F31;07:30 - 11:30;"28/03; 23/05"
+21;DEI;Base de Datos II;5;5;LCIk;-- --;2009;N;NA;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Jue 09/04/26;19:30;;Jue 28/05/26;19:30;;Jue 18/06/26;19:30;;;;Jue 02/07/26;19:30;;;;Lic. Severino Marco Antonio Leiva Fernández;Dr. Carlos Heriberto Nuñez Castillo;Lic. Jorge Dagoberto Benítez Cabana;;;Lab HPC;20:45 - 22:15;;;Lab HPC;19:00 - 20:30;;;F38;07:30 - 11:30;"21/03; 16/05"
+22;DEI;Base de Datos II;5;5;LCIk;-- --;2009;N;NB;EDUCA;Lic.;Benítez Cabana;Jorge Dagoberto;;Jue 09/04/26;19:30;;Jue 28/05/26;19:30;;Jue 18/06/26;19:30;;;;Jue 02/07/26;19:30;;;;Ms. Carmen Natividad Martínez Wenninger;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;Lic. Jorge Dagoberto Benítez Cabana;;;Lab AL;19:00 - 20:30;;;Lab AL;20:45 - 22:15;;;F37;07:30 - 11:30;"21/03; 16/05"
+23;DEI;Bases de Datos III;6;6;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Rivas Escobar;Carmen María;crivas@pol.una.py;Mar 14/04/26;19:30;;Mar 02/06/26;19:30;;Mar 23/06/26;19:30;;;;Mar 14/07/26;19:30;;;;Lic. Carmen María Rivas Escobar;Lic. Delia Mirna Hulskamp Quintana;Lic. Jorge Roberto Meza Benítez;;;A51;20:45 - 22:15;;;A51;19:00 - 20:30;;;A50;07:30 - 11:30;"21/03; 16/05"
+24;DEI;Compiladores y Lenguajes de Bajo Nivel;6;6;LCIk;PC;2009;N;NA;EDUCA;Ing.;Zárate Bazán;Derlis Atilio;;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ing. Julio Manuel Paciello Coronel;Dr. Cristian Ramón Cappo Araújo;Ms. Ellen Luján Méndez Xavier;;;;;F34;20:45 - 22:15;;;F34;19:00 - 20:30;F34;07:30 - 11:30;"14/03; 09/05"
+25;DEI;Electiva I - Arquitectura WEB;8;8;LCIk;PC;2009;N;NA;EDUCA;Lic.;Benitez Paredes;José Rodrigo;rbenitez@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Lic. José Rodrigo Benítez Paredes;Ing. Alberto Guzmán Capli Cabello;Ing. Claudia Noemí Palacios Romero;F37;19:00 - 20:30;;;;;F37;19:00 - 20:30;;;F37;07:30 - 11:30;"07/03; 02/05"
+26;DEI;Electiva I - Blockchain;8;8;LCIk;PC;2009;T;TQ;EDUCA;Ms.;Ihara Centurión;Diego Hisashi;"mvillagra@pol.una.py
+dihara@pol.una.py";Jue 09/04/26;18:00;;Jue 28/05/26;18:00;;Jue 25/06/26;18:00;;;;Jue 09/07/25;18:00;;;;Dr. Marcos Daniel Villagra Riquelme;Ms. Jenny Maggi Cáceres Gini;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;;;;;;;I07;16:30 - 19:30;I07;17:30 - 19:45;;;
+27;DEI;Electiva I - Ciberseguridad;8;8;LCIk;PC;2009;T;TQ;EDUCA;Ing.;Pereyra Molinas;Nicolás;npereyra@pol.una.py;Mar 07/04/26;18:00;;Mar 26/05/26;18:00;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;Ing. Nicolás Pereyra Molinas;Ms. Gustavo Daniel Sosa Cabrera;Ing. Gustavo Arsenio Sosa Cataldo;;;I01;16:45 - 19:00;;;I01;16:00 - 19:00;;;;;
+28;DEI;Electiva I - Data Mining;8;8;LCIk;PC;2009;T;TQ;EDUCA;Dr.;Sosa Cabrera;Gustavo Daniel;gdsosa@pol.una.py;Mar 07/04/26;18:00;;Mar 26/05/26;18:00;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;;;;C11;16:30 - 19:30;C11;20:00 - 22:15;;;;;;;;;
+29;DEI;Electiva I - Diseño de Aplicaciones Web y Mobile (*);8;8;LCIk;PC;2009;N;NA;EDUCA;Ing.;Ríos Villalba;Iván Ismael;irios@pol.una.py;;;;;;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Iván Ismael Ríos Villalba;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;;;;;;;;;;;;;
+31;DG;Electiva I - Gestión de Personas;5;5;LCIk;ASI;2009;T;TQ;EDUCA;Lic.;Sosa Cabrera;Osvaldo David;ososa@pol.una.py;Lun 06/04/26;15:00;;Lun 25/05/26;15:00;;Lun 15/06/26;15:00;;;;Lun 06/07/26;15:00;;;;Lic. Osvaldo David Sosa Cabrera;Ms. Julio Néstor Sánchez Laspina;Econ. Jerson Fernández Caje;E02;16:30 - 18:00;;;;;;;E02;13:15 - 15:30;;;
+32;DEI;Electiva I - Inteligencia Artificial;8;8;LCIk;PC;2009;T;TQ;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Lun 06/04/26;18:00;;Lun 25/05/26;18:00;;Lun 15/06/26;18:00;;;;Lun 06/07/26;18:00;;;;Ing. Julio Manuel Paciello Coronel;Ing. Gustavo Arsenio Sosa Cataldo;Ms. María del Rosario Zorrilla Antúnes;;;F34;16:45 -19:45;;;F34;16:30 -18:45;;;;;
+33;DG;Electiva I - Marketing;5;5;LCIk;ASI;2009;N;NA;EDUCA;Lic.;Rojas Duré;Cayo Adolfo;crojas@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Cayo Adolfo Rojas Duré;Ms. Cynthia Elizabeth Segovia Domínguez;Ing. Marco Luis Ayala Rodas;;;;;I05;20:45 - 22:15;;;I05;19:10 - 20:40;I06;07:30 - 11:30;"14/03; 09/05"
+34;DEI;Electiva I - Programación Web Back-End;8;8;LCIk;PC;2009;T;TQ;EDUCA;Ing.;Sosa Cataldo;Gustavo Arsenio;sosacataldo@pol.una.py;Mar 07/04/26;18:00;;Mar 26/05/26;18:00;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;Ing. Gustavo Arsenio Sosa Cataldo;Ms. Gustavo Daniel Sosa Cabrera;Ing. Nicolás Pereyra Molinas;Lab AL;16:30 - 19:30;Lab IA;20:00 - 22:15;;;;;;;;;
+35;DEI;Electiva I - Procesamiento Digital de Imágenes;8;8;LCIk;PC;2009;T;TQ;EDUCA;Dr.;Vázquez Noguera;José Luis;jlvazquez@pol.una.py;Mar 14/04/26;18:00;;Mar 02/06/26;18:00;;Mar 23/06/26;18:00;;;;Mar 14/07/26;18:00;;;;;;;;;F38;14:15 - 16:30;;;F38;14:30 - 17:30;;;;;
+36;DEI;Electiva I - Programación Web Front-End (*);9;9;LCIk;PC;2009;T;TQ;EDUCA;Ing.;Sosa Cataldo;Gustavo Arsenio;sosacataldo@pol.una.py;;;;;;;Lun 15/06/26;18:00;;;;Lun 06/07/26;18:00;;;;Ing. Gustavo Arsenio Sosa Cataldo;Ms. María del Rosario Zorrilla Antúnes;Ing. Julio Manuel Paciello Coronel;;;;;;;;;;;;;
+37;DEI;Electiva I - Tecnologías Emergentes;5;5;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;18:00;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;;;;Lab MS;20:45 - 22:15;;;;;;;Lab MS;19:00 - 20:30;F09;07:30 - 11:30;"21/03; 16/05"
+38;DEI;Electiva I - Tecnologías Emergentes;8;8;LCIk;PC;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;18:00;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;;;;Lab MS;20:45 - 22:15;;;;;;;Lab MS;19:00 - 20:30;F09;07:30 - 11:30;"21/03; 16/05"
+39;DEI;Electiva I - Tecnología Emergente en Telecomunicaciones y Redes (*);8;8;LCIk;PC;2009;T;TQ;EDUCA;Ing.;Pereyra Molinas;Nicolás;npereyra@pol.una.py;;;;;;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;Ing. Nicolás Pereyra Molinas;Ms. Gustavo Daniel Sosa Cabrera;Ing. Gustavo Arsenio Sosa Cataldo;;;;;;;;;;;;;
+40;DG;Electiva II - Sistema de Información Gerencial;6;6;LCIk;ASI;2009;T;TQ;EDUCA;Ms.;Martínez Cardozo;Édgar Catalino;emartinez@pol.una.py;Vie 17/04/26;15:00;;Vie 05/06/26;15:00;;Vie 26/06/26;15:00;;;;Vie 10/07/26;15:00;;;;Ms. Edgar Catalino Martínez Cardozo;Ms. María Griselda Palacios Ferreira;Ms. Alcides Javier Torres Gutt;;;;;;;F07;17:00 - 18:30;F07;16:15 - 18:30;;;
+41;DEI;Electiva II - Tecnologías Emergentes;6;6;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;18:00;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;;;;Lab MS;20:45 - 22:15;;;;;;;Lab MS;19:00 - 20:30;F09;07:30 - 11:30;"21/03; 16/05"
+42;DG;Electiva II - Sistemas de Gestión de Recursos Empresariales - ERP;6;6;LCIk;ASI;2009;N;NA;EDUCA;Ms.;González Rodas;Guillermo Jacobo;ggonzalez@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ms. Guillermo Jacobo González Rodas;C.P. Leidy Jessica Ríos Argaña;Lic. Zulma Lucía Demattei Ortiz;;;;;F39;20:45 - 22:15;;;F39;19:00 - 20:30;F39;07:30 - 11:30;"21/03; 16/05"
+43;DEI;Electiva III - Arquitectura WEB;7;7;LCIk;ASI;2009;N;NA;EDUCA;Lic.;Benitez Paredes;José Rodrigo;rbenitez@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Lic. José Rodrigo Benítez Paredes;Ing. Alberto Guzmán Capli Cabello;Ing. Claudia Noemí Palacios Romero;F37;19:00 - 20:30;;;;;F37;19:00 - 20:30;;;F37;07:30 - 11:30;"07/03; 02/05"
+44;DEI;Electiva III - Data Mining;7;7;LCIk;ASI;2009;T;TQ;EDUCA;Dr.;Sosa Cabrera;Gustavo Daniel;gdsosa@pol.una.py;Mar 07/04/26;18:00;;Mar 26/05/26;18:00;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;Ms. Gustavo Daniel Sosa Cabrera;Ing. Gustavo Arsenio Sosa Cataldo;Ing. Nicolás Pereyra Molinas;C11;16:30 - 19:30;Lab SO;20:00 - 22:15;;;; ;;;;;
+45;DEI;Electiva III - Data Science (*);7;7;LCIk;ASI;2009;T;TQ;EDUCA;Dra.;Ruiz Olazar;Margarita Ramona;mrruiz@pol.una.py;;;;;;;Mar 23/06/26;18:00;;;;Mar 14/07/26;18:00;;;;Dra. Margarita Ramona Ruiz Olazar;Dr. Diego Pedro Pinto Roa;Dr. José Luis Vázquez Noguera;;;;;;;;;;;;;
+46;DEI;Electiva III - Diseño de Aplicaciones Web y Mobile (*);7;7;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Ríos Villalba;Iván Ismael;irios@pol.una.py;;;;;;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Iván Ismael Ríos Villalba;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;;;;;;;;;;;;;
+47;DEI;Electiva III - Gestión de Proyectos;7;7;LCIk;ASI;2009;T;TQ;EDUCA;Ing.;Leguizamón Correa;Deysi Natalia;dleguizamon@pol.una.py;Vie 17/04/26;18:00;;Vie 05/06/26;18:00;;Vie 26/06/26;18:00;;;;Vie 10/07/26;18:00;;;;Ms. Guillermo Jacobo González Rodas;Ms. Ellen Luján Méndez Xavier;Ing. Julia Ysabel Talavera Maldonado;;;;;F39;16:00 - 19:00;;;F39;16:00 - 18:15;;;
+48;DEI;Electiva III - Inteligencia Artificial;7;7;LCIk;ASI;2009;T;TQ;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Lun 06/04/26;18:00;;Lun 25/05/26;18:00;;Lun 15/06/26;18:00;;;;Lun 06/07/26;18:00;;;;Ing. Julio Manuel Paciello Coronel;Ing. Gustavo Arsenio Sosa Cataldo;Ms. María del Rosario Zorrilla Antúnes;;;F34;16:45 -19:45;;;F34;16:30 -18:45;;;;;
+49;DEI;Electiva III - Tecnologías Emergentes;7;7;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;18:00;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;;;;Lab MS;20:45 - 22:15;;;;;;;Lab MS;19:00 - 20:30;F09;07:30 - 11:30;"21/03; 16/05"
+50;DEI;Electiva IV - Big Data;8;8;LCIk;ASI;2009;T;TQ;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Mar 07/04/26;18:00;;Mar 26/05/26;18:00;;Mar 16/06/26;18:00;;;;Mar 07/07/26;18:00;;;;;;;;;I02;16:45 - 19:00;;;I02;16:00 - 19:00;;;;;
+51;DEI;Electiva IV -  Data Science (*);8;8;LCIk;ASI;2009;T;TQ;EDUCA;Dra.;Ruiz Olazar;Margarita Ramona;mrruiz@pol.una.py;;;;;;;Mar 23/06/26;18:00;;;;Mar 14/07/26;18:00;;;;Dra. Margarita Ramona Ruiz Olazar;Dr. Diego Pedro Pinto Roa;Dr. José Luis Vázquez Noguera;;;;;;;;;;;;;
+52;DEI;Electiva IV - Diseño de Aplicaciones Web y Mobile (*);8;8;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Ríos Villalba;Iván Ismael;irios@pol.una.py;;;;;;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Iván Ismael Ríos Villalba;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;;;;;;;;;;;;;
+53;DG;Electiva IV - Sistemas de Gestión de Recursos Empresariales - ERP;8;8;LCIk;ASI;2009;N;NA;EDUCA;Ms.;González Rodas;Guillermo Jacobo;ggonzalez@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ms. Guillermo Jacobo González Rodas;C.P. Leidy Jessica Ríos Argaña;Lic. Zulma Lucía Demattei Ortiz;;;;;F39;20:45 - 22:15;;;F39;19:00 - 20:30;F39;07:30 - 11:30;"21/03; 16/05"
+54;DG;Electiva IV - Sistema de Información Gerencial;8;8;LCIk;ASI;2009;T;TQ;EDUCA;Ms.;Martínez Cardozo;Édgar Catalino;emartinez@pol.una.py;Vie 17/04/26;15:00;;Vie 05/06/26;15:00;;Vie 26/06/26;15:00;;;;Vie 10/07/26;15:00;;;;;;;;;;;;;F07;17:00 - 18:30;F07;16:15 - 18:30;;;
+55;DEI;Electiva IV - Tecnologías Emergentes;8;8;LCIk;ASI;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;18:00;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;Ing. Claudia Noemí Palacios Romero;Lab MS;20:45 - 22:15;;;;;;;Lab MS;19:00 - 20:30;F09;07:30 - 11:30;"21/03; 16/05"
+56;DCB;Estadística y Probabilidades;3;3;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Romero Daspett;Ida Luz;idaromero@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ms. Ida Luz Romero Daspett;Lic. Gladys Numidia Páez de Arrieta;Ms. Juan Ignacio Mereles Aquino;;;;;F14;20:45 - 22:15;;;Lab HPC;19:00 - 20:30;F14;07:30 - 11:30;"14/03; 09/05"
+57;DCB;Estadística y Probabilidades;3;3;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Mereles Aquino;Juan Ignacio;;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ms. Juan Ignacio Mereles Aquino;Ms. Ida Luz Romero Daspett;Lic. Gladys Numidia Páez de Arrieta;;;;;F18;20:45 - 22:15;;;F18;19:00 - 20:30;F13;07:30 - 11:30;"14/03; 09/05"
+58;DEI;Estructura de Datos;3;3;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Barúa Acosta;Claudio Nil;cbarua@pol.una.py;Mie 08/04/26;18:00;;Mie 27/05/26;18:00;;Mie 17/06/26;18:00;;;;Mie 01/07/26;18:00;;;;Ms. Claudio Nil Barúa Acosta ;Ms. Gustavo Daniel Sosa Cabrera;Ing. Derlis Atilio Zárate Bazán;;;;;Lab MS;19:00 - 20:30;F14;20:45 - 22:15;;;F14;07:30 - 11:30;"21/03; 16/05"
+59;DEI;Estructura de Datos;3;3;LCIk;-- --;2009;N;NB;EDUCA;Ing.;Zárate Bazán;Derlis Atilio;dzarate@pol.una.py;Mie 08/04/26;18:00;;Mie 27/05/26;18:00;;Mie 17/06/26;18:00;;;;Mie 01/07/26;18:00;;;;Ing. Derlis Atilio Zárate Bazán ;Ms. Gustavo Daniel Sosa Cabrera;Ms. Ellen Luján Méndez Xavier;;;;;F29;19:00 - 20:30;F29;20:45 - 22:15;;;F29;07:30 - 11:30;"21/03; 16/05"
+60;DEI;Estructura de los Lenguajes;5;5;LCIk;PC;2009;N;NA;EDUCA;Ing.;Ríos Villalba ;Iván Ismael;irios@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Ing. Derlis Atilio Zárate Bazán ;Mag. Liduvina Marina Vega Aquino;Ms. Ellen Luján Méndez Xavier;;;;;F29;20:45 - 22:15;;;Lab AL;19:00 - 20:30;F29;07:30 - 11:30;"14/03; 09/05"
+61;DCB;Física;4;4;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Jara Ávalos;Jorge Antonio;jorgejara@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Jorge Antonio Jara Ávalos;Ms. Ida Luz Romero Daspett;Ms. Juan Ignacio Mereles Aquino;;;;;I02;20:45 - 22:15;;;I02;19:00 - 20:30;I02;07:30 - 11:30;"14/03; 09/05"
+62;DCB;Física;4;4;LCIk;-- --;2009;N;NB;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;;;;;;;;I01;20:45 - 22:15;;;I01;19:00 - 20:30;I03;07:30 - 11:30;"14/03; 09/05"
+63;DEI;Informática I;1;1;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Rejala Torres;Ysacio Amadeo;yrejala@pol.una.py ;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Lic. Ysacio Amadeo Rejala Torres ;Ms. María del Rosario Zorrilla Antúnes;Lic. Rubén Delgado Segovia;F14;19:00 - 20:30;;;;;;;F14;20:45 - 22:15;F11;07:30 - 11:30;"28/02; 25/04"
+64;DEI;Informática II;2;2;LCIk;-- --;2009;M;MI;EDUCA;Ms.;Zorrilla Antúnes;María del Rosario;mariadelrosarioz@pol.una.py;Lun 13/04/26;08:00;;Lun 01/06/26;08:00;;Lun 22/06/26;08:00;;;;Lun 13/07/26;08:00;;;;Ms. María del Rosario Zorrilla Antúnes;Lic. Rubén Delgado Segovia;Lic. Ysacio Amadeo Rejala Torres;F29;07:30 - 09:00;;;;;;;Lab BD;09:15 - 11:30;;;
+65;DEI;Informática II;2;2;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Delgado Segovia;Rubén;rdelgadose@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Lic. Rubén Delgado Segovia ;Ms. María del Rosario Zorrilla Antúnes;Lic. Ysacio Amadeo Rejala Torres;Lab BD;19:00 - 20:30;;;;;;;Lab BD;20:45 - 22:15;I01;07:30 - 11:30;"28/02; 25/04"
+66;DEI;Informática II;2;2;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Torres Gutt;Alcides Javier;torresgutt@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;;;;F39;19:00 - 20:30;;;;;;;Lab AL;20:45 - 22:15;F29;07:30 - 11:30;"28/02; 25/04"
+67;DEI;Ingeniería de Software I;6;6;LCIk;-- --;2009;N;NA;EDUCA;Ms.;González Rodas;Guillermo Jacobo;ggonzalez@pol.una.py;Vie 10/04/26;19:30;;Vie 29/05/26;19:30;;Vie 19/06/26;19:30;;;;Vie 03/07/26;19:30;;;;Ing.  Deysi Natalia Leguizamón Correa;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;Lic. Victor Hugo Santacruz Delvalle;E02;19:00 - 20:30;;;;;;;E02;20:45 - 22:15;E02;07:30 - 11:30;"28/02; 25/04"
+68;DEI;Ingeniería de Software II;7;7;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Riveros Valdez;Lilian Mercedes Raquel Rocío;lilian.riveros@pol.una.py;Vie 10/04/26;19:30;;Vie 29/05/26;19:30;;Vie 19/06/26;19:30;;;;Vie 03/07/26;19:30;;;;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;Ing. Deysi Natalia Leguizamón Correa;Lic. Gregorio Quintana González;Lab IA;19:00 - 20:30;;;;;;;Lab IA;20:45 - 22:15;F39;07:30 - 11:30;"28/02; 25/04"
+69;DEI;Ingeniería de Software III;8;8;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Quintana González;Gregorio;gregorio.quintana@pol.una.py;Vie 10/04/26;19:30;;Vie 29/05/26;19:30;;Vie 19/06/26;19:30;;;;Vie 03/07/26;19:30;;;;Lic. Gregorio Quintana González;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;Ing. Deysi Natalia Leguizamón Correa;F40;19:00 - 20:30;;;;;;;F40;20:45 - 22:15;F40;07:30 - 11:30;"28/02; 25/04"
+70;DG;Inglés Técnico;1;2;LCIk;-- --;2009;M;MI;EDUCA;Lic.;"Ibáñez de Mongelós
+González Martinez";"Ramona Lucía
+Juana Ubaidina";ramiba@pol.una.py;Jue 16/04/26;08:00;;Jue 04/06/26;08:00;;Jue 18/06/26;08:00;;;;Jue 02/07/26;08:00;;;;Lic. Ramona Lucía Ibáñez de Mongelós;Dra. Mirta Estela Barreto Ibarra;Lic. Zulma Noemí Román Medina;;;C04;07:30 - 09:45;;;C04;10:15 - 11:45;;;;;
+71;DG;Inglés Técnico;1;2;LCIk;-- --;2009;T;TQ;EDUCA;Lic.;Sanabria Añazco;Sandra Magdalena;ssanabria@pol.una.py;Sab 18/04/26;08:00;;Sab 06/06/26;08:00;;Jue 18/06/26;15:00;;;;Jue 02/07/26;15:00;;;;Lic. Sandra Magdalena Sanabria Añazco;Lic. Ramona Lucía Ibáñez de Mongelós;Lic. Zulma Noemí Román Medina;A52;13:15 - 14:45;;;;;;;;;A52;10:00 - 12:15;
+72;DG;Inglés Técnico;1;2;LCIk;-- --;2009;T;TR;EDUCA;Lic.;Torres Recalde;Lissi Fabiola;;Sab 18/04/26;08:00;;Sab 06/06/26;08:00;;Jue 18/06/26;15:00;;;;Jue 02/07/26;15:00;;;;Lic. Lissi Fabiola Torres Recalde;Lic. Sandra Magdalena Sanabria Añazco;Lic. Zulma Noemí Román Medina;C01;13:15 - 14:45;;;;;;;;;C01;10:00 - 12:15;
+73;DG;Inglés Técnico;1;2;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Sanabria Añazco;Sandra Magdalena;ssanabria@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 19/06/26;19:30;;;;Vie 03/07/26;19:30;;;;Lic. Sandra Magdalena Sanabria Añazco;Lic. Ramona Lucía Ibáñez de Mongelós;Lic. Zulma Noemí Román Medina;;;;;C02;20:45 - 22:15;;;C02;19:00 - 20:30;A50;07:30 - 11:30;"14/03; 09/05"
+74;DCB;Investigación Operativa I;4;6;LCIk;-- --;2009;M;MI;EDUCA;Ms.;Pineda Alvarenga;Johana Raquel;jpineda@pol.una.py;Sab 11/04/26;08:00;;Sab 30/05/26;08:00;;Sab 27/06/26;08:00;;;;Sab 04/07/26;08:00;;;;Ms. Johana Raquel Pineda Alvarenga;Ms. Salustiano Vega Gamarra;Lic. Cynthia Raquel Acosta López;;;;;;;;;;;I07;07:30 - 11:15;
+75;DCB;Investigación Operativa I;4;6;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Silguero Benítez;Norma Beatriz;nsilguero@pol.una.py;Mar 07/04/26;19:30;;Mar 26/05/26;19:30;;Mar 16/06/26;19:30;;;;Mar 07/07/26;19:30;;;;Ms. Norma Beatriz Silguero Benítez;Ms. Heriberto Fabián González Colmán;Lic. Richard Adrián Villsantti Flores;;;I06;19:00 - 20:30;;;I06;20:45 - 22:15;;;I06;07:30 - 11:30;"07/03; 02/05"
+76;DCB;Investigación Operativa II;5;7;LCIk;-- --;2009;M;MI;EDUCA;Ms.;Vega Gamarra;Salustiano;svega@pol.una.py;Sab 11/04/26;08:00;;Sab 30/05/26;08:00;;Sab 27/06/26;08:00;;;;Sab 04/07/26;08:00;;;;Ms. Salustiano Vega Gamarra;Ms. Johana Raquel Pineda Alvarenga;Lic. Cynthia Raquel Acosta López;;;;;;;;;;;I04;07:30 - 11:15;
+77;DCB;Investigación Operativa II;5;7;LCIk;-- --;2009;N;NA;EDUCA;Ms.;González Colmán;Heriberto Fabián;hgonzalez@pol.una.py;Mar 07/04/26;19:30;;Mar 26/05/26;19:30;;Mar 16/06/26;19:30;;;;Mar 07/07/26;19:30;;;;Ms. Heriberto Fabián González Colmán;Ms. Norma Beatriz Silguero Benítez;Lic. Richard Adrián Villsantti Flores;;;I05;19:00 - 20:30;;;I05;20:45 - 22:15;;;I05;07:30 - 11:30;"14/03; 09/05"
+78;DCB;Matemática I;1;1;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Fernández Ortega;Osmar Erico;ofernandez@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Osmar Erico Fernández Ortega;Lic. Gladys Numidia Páez de Arrieta;Ms. Ida Luz Romero Daspett;;;;;A53;20:45 - 22:15;;;A53;19:00 - 20:30;C04;07:30 - 11:30;"07/03; 02/05"
+79;DCB;Matemática I;1;1;LCIk;-- --;2009;N;NB;EDUCA;Lic.;Páez Rejala;Gladys Numidia;gpaez@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;"Lic. Gladys Numidia Páez de Arrieta
+";Ms. Ida Luz Romero Daspett;Lic. Osmar Erico Fernández Ortega;;;;;A50;20:45 - 22:15;;;A50;19:00 - 20:30;A50;07:30 - 11:30;"07/03; 02/05"
+80;DCB;Matemática I (*);1;1;LCIk;-- --;2009;M;MI;EDUCA;Lic.;Páez Rejala;Gladys Numidia;gpaez@pol.una.py;;;;;;;Vie 26/06/26;08:00;;;;Vie 10/07/26;08:00;;;;"Lic. Gladys Numidia Páez de Arrieta
+";Ms. Teresa Dejesús Aranda Espínola;Lic. Cinthia Noemí Ferreira Vázquez;;;;;;;;;;;;;
+81;DCB;Matemática II;1;1;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Díaz Escobar;Viviana Isabel;vdiaz@pol.una.py;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;Ms. Viviana Isabel Díaz Escobar;Lic. Lorenza Elizabeth Ascurra;Lic. Osmar Erico Fernández Ortega;I01;20:45 - 22:15;I01;19:00 - 20:30;;;;;;;I01;07:30 - 11:30;"14/03; 09/05"
+82;DCB;Matemática III;2;2;LCIk;-- --;2009;T;TQ;EDUCA;Dra.;Martínez Villanueva;Luz María Elizabeth;lmmartinez@pol.una.py;Lun 06/04/26;15:00;;Lun 25/05/26;15:00;;Lun 15/06/26;15:00;;;;Lun 06/07/26;15:00;;;;Dra. Luz María Elizabeth Martínez Villanueva;Ms. Nilsa Ocampos Cristaldo;Lic. Cinthia Noemí Ferreira Vázquez;F11;16:15 - 18:30;F11;14:30 - 16:00;;;;;;;;;
+83;DCB;Matemática III;2;2;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Ascurra;Lorenza Elizabeth;leascurra@pol.una.py;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;Lic. Lorenza Elizabeth Ascurra;Ms. Viviana Isabel Díaz Escobar;Lic. Osmar Erico Fernández Ortega;I02;20:45 - 22:15;I02;19:00 - 20:30;;;;;;;I02;07:30 - 11:30;"07/03; 02/05"
+84;DCB;Matemática IV;3;3;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Fernández Ortega;Osmar Erico;ofernandez@pol.una.py;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;Lic. Osmar Erico Fernández Ortega;Ms. Viviana Isabel Díaz Escobar;Lic. Lorenza Elizabeth Ascurra;A53;20:45 - 22:15;A53;19:00 - 20:30;;;;;;;E02;07:30 - 11:30;"07/03; 02/05"
+85;DCB;Matemática IV;3;3;LCIk;-- --;2009;N;NB;EDUCA;Lic.;Acosta López;Cynthia Raquel;cacosta@pol.una.py;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;Lic. Cynthia Raquel Acosta López;Lic. Lorenza Elizabeth Ascurra;Lic. Osmar Erico Fernández Ortega;I03;20:45 - 22:15;I03;19:00 - 20:30;;;;;;;I03;07:30 - 11:30;"07/03; 02/05"
+86;DCB;Matemática V;4;4;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Báez Chávez;Silvia;sbaez@pol.una.py;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;Ms. Silvia Báez Chávez;Lic. Osmar Erico Fernández Ortega;Lic. Cynthia Raquel Acosta López;A51;20:45 - 22:15;A51;19:00 - 20:30;;;;;;;I01;07:30 - 11:30;"07/03; 02/05"
+87;DCB;Matemática V;4;4;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Villalba Sosa;Pedro Alberto;;Lun 06/04/26;19:30;;Lun 25/05/26;19:30;;Lun 15/06/26;19:30;;;;Lun 06/07/26;19:30;;;;;;;A50;20:45 - 22:15;A50;19:00 - 20:30;;;;;;;F13;07:30 - 11:30;"07/03; 02/05"
+88;DCB;Matemática VI;5;5;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Villasantti Flores;Richard Adrián;villasantti@pol.una.py;Mar 07/04/26;19:30;;Mar 26/05/26;19:30;;Mar 16/06/26;19:30;;;;Mar 07/07/26;19:30;;;;Lic. Richard Adrián Villasantti Flores;Ms. Norma Beatriz Silguero Benítez;Ms. Heriberto Fabián González Colmán;A52;20:45 - 22:15;A52;19:00 - 20:30;;;;;;;F11;07:30 - 11:30;"07/03; 02/05"
+89;DG;Metodología de la Investigación;---;6;LCIk;-- --;2009;T;TR;EDUCA;Ms.;Ayala Rodríguez;María Soledad;msayala@pol.una.py;Mie 15/04/26;15:00;;Mie 03/06/26;15:00;;Mie 24/06/26;15:00;;;;Mie 08/07/26;15:00;;;;Ms. María Soledad Ayala Rodríguez;Dra. Emilce Noemí Sena Correa;Ms. Rosa Isabel Ramírez Barreto;;;;;C11;13:45 - 16:00;C11;13:45 - 15:15;;;;;
+90;DG;Metodología de la Investigación;---;6;LCIk;-- --;2009;T;TS;EDUCA;Dra.;Sena Correa;Emilce Noemi;esena@pol.una.py;Mie 15/04/26;15:00;;Mie 03/06/26;15:00;;Mie 24/06/26;15:00;;;;Mie 08/07/26;15:00;;;;Dra. Emilce Noemí Sena Correa;Ms. María Soledad Ayala Rodríguez;Ms. Rosa Isabel Ramírez Barreto;;;;;C12;13:45 - 16:00;C12;13:45 - 15:15;;;;;
+91;DG;Metodología de la Investigación;4;6;LCIk;-- --;2009;N;NB;EDUCA;Ms.;Ramírez Barreto;Rosa Isabel;rramirez@pol.una.py;Mie 15/04/26;19:30;;Mie 03/06/26;19:30;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Ms. Rosa Isabel Ramírez Barreto;Dra. Emilce Noemí Sena Correa;Ms. María Soledad Ayala Rodríguez;C02;20:45 - 22:15;;;C02;19:00 - 20:30;;;;;C04;07:30 - 11:30;"28/03; 23/05"
+92;DG;Metodología de la Investigación;4;6;LCIk;-- --;2009;N;NC;EDUCA;Dra.;Coronel de López;Luciana Dalila;dalicor@pol.una.py;Mie 15/04/26;19:30;;Mie 03/06/26;19:30;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Dra. Luciana Dalila Coronel de López;Dra. Emilce Noemí Sena Correa ;Ms. Rosa Isabel Ramírez Barreto;F38;20:45 - 22:15;;;F38;19:00 - 20:30;;;;;F38;07:30 - 11:30;"28/03; 23/05"
+93;DG;Metodología de la Investigación (*);---;6;LCIk;-- --;2009;T;TQ;EDUCA;Ms.;Ramírez Barreto;Rosa Isabel;rramirez@pol.una.py;;;;;;;Mie 24/06/26;15:00;;;;Mie 08/07/26;15:00;;;;Ms. Rosa Isabel Ramírez Barreto;Dra. Emilce Noemí Sena Correa;Ms. María Soledad Ayala Rodríguez;;;;;;;;;;;;;
+94;DG;Metodología de la Investigación (*);---;6;LCIk;-- --;2009;N;NA;EDUCA;Dra.;Sena Correa;Emilce Noemí;esena@pol.una.py;;;;;;;Mie 24/06/26;19:30;;;;Mie 08/07/26;19:30;;;;Dra. Emilce Noemí Sena Correa;Ms. María Soledad Ayala Rodríguez;Ms. Rosa Isabel Ramírez Barreto;;;;;;;;;;;;;
+95;DEI;Paradigmas de la Programación;4;4;LCIk;-- --;2009;N;NA;EDUCA;;A CONFIRMAR;A CONFIRMAR;;Mie 08/04/26;19:30;;Mie 27/05/26;19:30;;Mie 17/06/26;19:30;;;;Mie 01/07/26;19:30;;;;Ms. Gustavo Daniel Sosa Cabrera;Ing. Derlis Atilio Zaráte Bazán;Ms. Ellen Luján Méndez Xavier;;;;;I01;19:00 - 20:30;I01;20:45 - 22:15;;;I01;07:30 - 11:30;"21/03; 16/05"
+96;DEI;Programación de Aplicaciones en Redes;7;7;LCIk;PC;2009;N;NA;EDUCA;;Fernández Laconich;Alfonso Mariano;;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Claudia Noemí Palacios Romero;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;F35;20:45 - 22:15;;;;;F35;19:00 - 20:30;;;F34;07:30 - 11:30;"07/03; 02/05"
+97;DEI;Proyecto I;7;7;LCIk;ASI,PC;2009;M;MI;EDUCA;Dr.;Schaerer Serra;Christian Emilio;cschaer@pol.una.py;Vie 17/04/26;08:00;;Vie 05/06/26;08:00;;Vie 26/06/26;08:00;;;;Vie 10/07/26;08:00;;;;Dr. Christian Emilio Schaerer Serra;Mag. Liduvina Marina Vega Aquino;Ing. Derlis Atilio Zárate Bazán;;;;;;;;;F25;07:30 - 11:15;;;
+98;DEI;Proyecto I;7;7;LCIk;ASI,PC;2009;N;NA;EDUCA;"
+Lic.
+";Duré González;Juan Fernando;"
+jdure@pol.una.py
+";Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Juan Fernando Duré González;Lic. Diego Iván Ruiz Díaz Gamarra;Lic. Romina Maria Leticia Rojas Moreno;;;;;F38;20:45 - 22:15;;;F38;19:00 - 20:30;F33;07:30 - 11:30;"28/03; 23/05"
+99;DEI;Proyecto I;7;7;LCIk;ASI,PC;2009;N;NB;EDUCA;Lic.;Ruiz Díaz Gamarra;Diego Iván;diegoruiz@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;;;;;;;;F25;20:45 - 22:15;;;F25;19:00 - 20:30;F29;07:30 - 11:30;"28/03; 23/05"
+100;DEI;Proyecto I;7;7;LCIk;ASI,PC;2009;N;NE;EDUCA;Lic.;Machuca  Cabral ;Mauricio;m.machuca@pol.una.py;Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;;;;;;;;F37;20:45 - 22:15;;;F37;19:00 - 20:30;F37;07:30 - 11:30;"28/03; 23/05"
+101;DEI;Proyecto I;7;7;LCIk;ASI,PC;2009;N;NF;EDUCA;Lic.;Rojas Moreno;Romina María Leticia;"
+rominarojas@pol.una.py
+";Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Romina Maria Leticia Rojas Moreno;Lic. Mauricio Machuca Cabral;Dr. José Luis Vázquez Noguera;;;;;F40;20:45 - 22:15;;;F40;19:00 - 20:30;F40;07:30 - 11:30;"28/03; 23/05"
+102;DEI;Proyecto II;8;8;LCIk;ASI,PC;2009;T;TQ;EDUCA;Dr.;Schaerer Serra;Christian Emilio;cschaer@pol.una.py;Vie 17/04/26;15:00;;Vie 05/06/26;15:00;;Vie 26/06/26;15:00;;;;Vie 10/07/26;15:00;;;;Dr. Christian Emilio Schaerer Serra;Mag. Liduvina Marina Vega Aquino;Ing. Derlis Atilio Zárate Bazán;;;;;;;;;F29;13:00 - 16:45;;;
+103;DEI;Proyecto II;8;8;LCIk;ASI,PC;2009;N;NA;EDUCA;"Lic.
+Lic.";"Duré González
+Ruiz Díaz Gamarra";"Juan Fernando
+Diego Iván";"jdure@pol.una.py
+diegoruiz@pol.una.py";Vie 17/04/26;19:30;;Vie 05/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Juan Fernando Duré González;Lic. Diego Iván Ruiz Díaz Gamarra;Lic. Romina Maria Leticia Rojas Moreno;;;;;F36;19:00 - 20:30;;;F36;20:45 - 22:15;F36;07:30 - 11:30;"28/03; 23/05"
+104;DEI;Proyecto II;8;8;LCIk;ASI,PC;2009;N;NB;EDUCA;"Lic.
+Lic.";"Fernández Laconich
+González Sullow";"Alfonso Mariano
+Carolina";"afernandez@pol.una.py
+cgonzalez@pol.una.py";Jue 16/04/26;19:30;;Jue 04/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Alfonso Mariano Fernández Laconich ;Lic. Carolina González Sullow;Lic. Diego Iván Ruiz Díaz Gamarra;;;F25;19:00 - 20:30;;;F25;20:45 - 22:15;;;F25;07:30 - 11:30;"28/03; 23/05"
+105;DEI;Proyecto II;8;8;LCIk;ASI,PC;2009;N;NC;EDUCA;"Lic.
+Lic.
+Dr.";"Rojas Moreno
+Machuca  Cabral
+Vázquez Noguera";"Romina María Leticia
+Mauricio
+José Luis";"rominarojas@pol.una.py
+m.machuca@pol.una.py
+jlvazquez@pol.una.py";Jue 16/04/26;19:30;;Jue 04/06/26;19:30;;Vie 26/06/26;19:30;;;;Vie 10/07/26;19:30;;;;Lic. Romina Maria Leticia Rojas Moreno;Lic. Mauricio Machuca Cabral;Dr. José Luis Vázquez Noguera;;;F34;20:45 - 22:15;F34;19:00 - 20:30;;;;;F34;07:30 - 11:30;"28/03; 23/05"
+106;DEI;Redes I;4;4;LCIk;-- --;2009;N;NA;EDUCA;Lic.;Riveros Gimenez;Carlos David;cdriveros@pol.una.py;Vie 10/04/26;19:30;;Vie 29/05/26;19:30;;Vie 19/06/26;19:30;;;;Vie 03/07/26;19:30;;;;Lic. Victor Hugo Santacruz Delvalle;Lic. Lilian Mercedes Raquel Rocío Riveros Valdez;Ing. Deysi Natalia Leguizamón Correa;Lab HPC;19:00 - 20:30;;;;;;;Lab HPC;20:45 - 22:15;F37;07:30 - 11:30;"28/02; 25/04"
+107;DEI;Redes II;5;5;LCIk;-- --;2009;N;NA;EDUCA;Ing.;Capli Cabello;Alberto Guzmán;acapli@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ing. Alberto Guzmán Capli Cabello;Lic. José Rodrigo Benítez Paredes;Ing. Claudia Noemí Palacios Romero;Lab MS;19:00 - 20:30;;;;;;;Lab MS;20:45 - 22:15;F38;07:30 - 11:30;"28/02; 25/04"
+108;DCB;Simulación;---;8;LCIk;-- --;2009;N;NA;EDUCA;Ms.;González Colmán;Heriberto Fabián;hgonzalez@pol.una.py;Mar 07/04/26;19:30;;Mar 26/05/26;19:30;;Mar 16/06/26;19:30;;;;Mar 07/07/26;19:30;;;;Ms. Heriberto Fabián González Colmán;Ms. Norma Beatriz Silguero Benítez;Lic. Richard Adrián Villsantti Flores;;;I05;20:45 - 22:15;;;I05;19:00 - 20:30;;;I05;07:30 - 11:30;"07/03; 02/05"
+109;DEI;Sistemas Operativos;3;3;LCIk;-- --;2009;N;NA;EDUCA;Ms.;Cuquejo Castagnino;Virna Daisy;cuquejo@pol.una.py;Lun 13/04/26;19:30;;Lun 01/06/26;19:30;;Lun 22/06/26;19:30;;;;Lun 13/07/26;19:30;;;;Ms. Virna Daisy Cuquejo Castagnino ;Ing. Alberto Guzmán Capli Cabello;Lic. Rubén Delgado Segovia;I03;19:00 - 20:30;;;;;;;I03;20:45 - 22:15;Lab SO;07:30 - 11:30 ;"28/02; 25/04"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

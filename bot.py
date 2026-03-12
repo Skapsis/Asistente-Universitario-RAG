@@ -5,6 +5,8 @@ Incluye: Moodle (tareas), Horarios desde Excel, RAG con Gemini (PDFs).
 """
 import os
 from datetime import datetime
+import time
+import glob
 
 import pandas as pd
 import requests
@@ -33,12 +35,10 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 MOODLE_URL = os.getenv("MOODLE_URL", "https://grado.pol.una.py").rstrip("/")
 MOODLE_WSTOKEN = os.getenv("MOODLE_WSTOKEN")
 
-# --- Fase 2: Horarios desde Excel ---
-# Ruta al Excel (puedes cambiar el nombre del archivo aquí)
-CARPETA_HORARIO = "Horario"
-ARCHIVO_HORARIO = "horario.xlsx"
-RUTA_HORARIO_EXCEL = os.path.join(CARPETA_HORARIO, ARCHIVO_HORARIO)
-# Nombres de columnas del Excel (ajusta si tu archivo usa otros nombres)
+# --- Fase 2: Horarios desde CSV ---
+# Carpeta donde se encuentra(n) los CSV de horarios.
+CARPETA_HORARIOS = "/Users/ivanvazquez/Cva-Fpuna/Fuente_Materias/Horarios"
+# Nombres de columnas del CSV (ajusta si tu archivo usa otros nombres)
 # Ejemplo típico: una columna con el día (Lunes, Martes...) y otra con hora/materia
 COLUMNA_DIA = "Día"          # o "Dia", "dia", "day"
 COLUMNA_HORA = "Hora"        # ej. "08:00 - 10:00"
@@ -135,21 +135,60 @@ def configurar_rag():
 
         # Embeddings locales con HuggingFace para evitar errores 404 de Google.
         embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-        vectorstore = FAISS.from_documents(splits, embeddings)  # global para poder añadir PDFs desde el manejador de documentos
-        retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+        vectorstore = FAISS.from_documents(
+            splits, embeddings
+        )  # global para poder añadir PDFs desde el manejador de documentos
 
-        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
+        # max_retries para manejar micro-cortes de red con la API de Gemini
+        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3, max_retries=3)
 
-        plantilla = """Eres un tutor universitario estricto y experto. Tu objetivo es ayudar al estudiante a estudiar, pero tienes una regla de oro: ÚNICAMENTE puedes responder usando la información del 'Contexto' proporcionado abajo.
-Si la respuesta no está en el contexto, no intentes adivinar ni usar conocimiento externo. Simplemente responde: "Lo siento, esa información no está en tus apuntes."
+        # Prompt de Tutor Proactivo: responde SOLO con el contexto de los PDFs,
+        # pero de forma activa, guiando al estudiante y proponiendo siguientes pasos.
+        # Además, si el contexto incluye documentos tipo "Programa de Estudios" o índices,
+        # el tutor debe usar esa información solo como referencia de secciones y luego buscar
+        # explicaciones teóricas detalladas en los demás archivos disponibles.
+        plantilla = """Eres un Tutor Universitario Experto y Proactivo. Tienes dos fuentes de información: el Contexto (apuntes del usuario) y tu propio conocimiento experto.
+REGLA 1: Siempre revisa primero el Contexto proporcionado.
+REGLA 2: Si el Contexto contiene la teoría y explicación completa, úsala para responder e indica tus fuentes.
+REGLA 3 (CRÍTICA): Si el Contexto SOLO contiene un programa de estudios, un índice o una lista de temas (por ejemplo, "Unidad 2", "2.1 Tema A", "2.2 Tema B") sin desarrollo teórico, NO te detengas. Extrae esos temas del contexto y USA TU PROPIO CONOCIMIENTO EXPERTO para explicarlos a fondo, como si estuvieras dando la clase.
+REGLA 4: Cuando uses tu propio conocimiento para rellenar los vacíos del programa de estudios, inicia tu respuesta con esta frase exacta: "💡 Tus apuntes solo listan los temas de esta unidad, así que he investigado la teoría detallada para ti:" y luego desarrolla la clase de forma estructurada.
+IMPORTANTE: Los metadatos o el nombre del archivo fuente (por ejemplo, Administracion-IV.pdf) te indican de qué materia trata el texto. Si el usuario pregunta por "Administración IV", asume que cualquier contexto proveniente de ese archivo PERTENECE a esa materia, aunque el texto del párrafo no mencione explícitamente el nombre de la asignatura.
+Sé flexible con los números: "Unidad 2" es lo mismo que "Unidad II" o "Capítulo 2".
+Si el usuario te pide hablar sobre una unidad basada en una tarea pendiente, busca los temas principales de esa unidad en el contexto y explícalos.
+Si el usuario pide más información o dice cosas como "dime más", "ampliar" o "explica mejor", busca en el contexto información más técnica, ejemplos prácticos o comparaciones que no hayas mencionado antes.
+Si el contexto menciona solo un programa de estudios, índice o lista de temas, usa esa información para identificar la sección o unidad, pero cuando no haya desarrollo teórico suficiente, aplica la REGLA 3 y usa tu propio conocimiento experto para desarrollar la teoría.
+Si el usuario pregunta por una sección o unidad, busca la explicación teórica en todos los archivos disponibles. No te limites a decir que el tema existe, ¡explícalo!
+Al finalizar cada respuesta, ofrece 2 o 3 puntos clave o subtemas de la sección actual para seguir profundizando.
+Si el usuario pregunta por horarios o exámenes, busca en los documentos que mencionen "Horario", "Calendario" o "Cronograma". Usa la fecha actual proporcionada para filtrar la información relevante (por ejemplo, si hoy es lunes, prioriza las clases de los lunes).
 Contexto: {context}
 Pregunta: {question}
 Respuesta:"""
         QA_PROMPT = PromptTemplate(template=plantilla, input_variables=["context", "question"])
 
+        # Prompt para condensar/reformular la pregunta usando el historial y evitar perder contexto
+        plantilla_condense = """Dado el siguiente historial de conversación entre un estudiante y su tutor universitario, y la nueva pregunta del estudiante, reformula la pregunta para que sea independiente, específica y adecuada para buscar en los apuntes.
+
+Historial:
+{chat_history}
+
+Nueva pregunta del estudiante:
+{question}
+
+Instrucciones:
+- Si la nueva pregunta es ambigua o del tipo "dime más", "seguí contándome", "explica mejor", etc., reemplázala por una pregunta completa que deje claro el tema, por ejemplo: "detalles adicionales sobre [tema anterior]".
+- NO respondas la pregunta, SOLO reformúlala como una búsqueda concreta y completa.
+
+Pregunta reformulada:"""
+        CONDENSE_QUESTION_PROMPT = PromptTemplate(
+            template=plantilla_condense, input_variables=["chat_history", "question"]
+        )
+
         rag_chain = ConversationalRetrievalChain.from_llm(
             llm=llm,
-            retriever=retriever,
+            retriever=vectorstore.as_retriever(
+                search_type="mmr", search_kwargs={"k": 10, "fetch_k": 20}
+            ),
+            condense_question_prompt=CONDENSE_QUESTION_PROMPT,
             combine_docs_chain_kwargs={"prompt": QA_PROMPT},
             return_source_documents=True,
         )
@@ -229,7 +268,7 @@ def manejar_documento(message):
 
 def obtener_clases_hoy():
     """
-    Lee el horario desde el Excel en Horario/horario.xlsx y devuelve las clases del día actual.
+    Lee el horario desde un CSV de horarios y devuelve las clases del día actual.
     Si es fin de semana, no hay archivo o no hay clases, devuelve mensaje de descanso o error.
     """
     dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
@@ -241,10 +280,24 @@ def obtener_clases_hoy():
     nombre_dia = dias[hoy]
 
     try:
-        if not os.path.isfile(RUTA_HORARIO_EXCEL):
-            return f"❌ No se encontró el archivo de horario: `{RUTA_HORARIO_EXCEL}`. Comprueba la ruta y el nombre del archivo."
+        # Buscar dinámicamente cualquier CSV dentro de la carpeta de horarios
+        patrones = [
+            os.path.join(CARPETA_HORARIOS, "*.csv"),
+            os.path.join(CARPETA_HORARIOS, "**", "*.csv"),
+        ]
+        archivos_csv = []
+        for patron in patrones:
+            archivos_csv.extend(glob.glob(patron, recursive=True))
 
-        df = pd.read_excel(RUTA_HORARIO_EXCEL)
+        if not archivos_csv:
+            return (
+                "❌ No se encontró ningún archivo de horario en la carpeta de horarios. "
+                "Asegúrate de que exista al menos un archivo .csv en la carpeta de horarios."
+            )
+
+        ruta_csv = archivos_csv[0]
+
+        df = pd.read_csv(ruta_csv)
 
         if df.empty:
             return "❌ El archivo de horario está vacío."
@@ -352,49 +405,66 @@ def manejador_maestro(message):
                 "❌ El asistente de materiales no está disponible. Revisa que Fuente_Materias tenga PDFs y GOOGLE_API_KEY en .env.",
             )
             return
+        # Conocimiento del tiempo actual para preguntas relativas a "hoy", "mañana", etc.
+        ahora = datetime.now()
+        contexto_tiempo = ahora.strftime("%Y-%m-%d %H:%M")
+        pregunta_con_tiempo = f"[Fecha y hora actual: {contexto_tiempo}] {texto_original}"
+
         msg = bot.reply_to(message, "🧠 Consultando tus documentos...")
         bot.send_chat_action(message.chat.id, "typing")
-        try:
-            historial = historial_chats.get(message.chat.id, [])
-            # ConversationalRetrievalChain espera chat_history como lista de (HumanMessage, AIMessage)
-            chat_history_msgs = []
-            for preg, resp in historial:
-                chat_history_msgs.append(HumanMessage(content=preg))
-                chat_history_msgs.append(AIMessage(content=resp))
-            resultado = rag_chain.invoke({"question": texto_original, "chat_history": chat_history_msgs})
-            respuesta_original = resultado.get("answer", str(resultado))
 
-            # Construir citas de fuentes (PDF + página) sin repetir la misma página
-            documentos = resultado.get("source_documents", [])
-            fuentes_unicas = set()
-            for doc in documentos:
-                fuente = doc.metadata.get("source", "Desconocido")
-                nombre_archivo = os.path.basename(fuente)
-                pagina = doc.metadata.get("page", 0)
-                if isinstance(pagina, (int, float)):
-                    numero_pag = int(pagina) + 1
+        # Reintentos para manejar errores temporales de red/SSL con Gemini
+        intentos_max = 3
+        ultimo_error = None
+
+        for intento in range(1, intentos_max + 1):
+            try:
+                historial = historial_chats.get(message.chat.id, [])
+                # ConversationalRetrievalChain (usar versión classic) acepta chat_history
+                # como lista de tuplas (humano, bot) o lista de mensajes.
+                # Aquí usamos la forma de tuplas para que se vea claramente quién dijo qué.
+                chat_history_tuplas = [(preg, resp) for preg, resp in historial]
+
+                resultado = rag_chain.invoke({"question": pregunta_con_tiempo, "chat_history": chat_history_tuplas})
+                respuesta_original = resultado.get("answer", str(resultado))
+
+                # Construir citas de fuentes (PDF + página) sin repetir la misma página
+                documentos = resultado.get("source_documents", [])
+                fuentes_unicas = set()
+                for doc in documentos:
+                    fuente = doc.metadata.get("source", "Desconocido")
+                    nombre_archivo = os.path.basename(fuente)
+                    pagina = doc.metadata.get("page", 0)
+                    if isinstance(pagina, (int, float)):
+                        numero_pag = int(pagina) + 1
+                    else:
+                        numero_pag = 1
+                    fuentes_unicas.add((nombre_archivo, numero_pag))
+                lineas_fuentes = sorted(fuentes_unicas, key=lambda x: (x[0], x[1]))
+                if lineas_fuentes:
+                    texto_fuentes = "\n\n📚 *Fuentes:*\n" + "\n".join(f"- {nom} (Pág. {n})" for nom, n in lineas_fuentes)
+                    mensaje_al_usuario = respuesta_original + texto_fuentes
                 else:
-                    numero_pag = 1
-                fuentes_unicas.add((nombre_archivo, numero_pag))
-            lineas_fuentes = sorted(fuentes_unicas, key=lambda x: (x[0], x[1]))
-            if lineas_fuentes:
-                texto_fuentes = "\n\n📚 *Fuentes:*\n" + "\n".join(f"- {nom} (Pág. {n})" for nom, n in lineas_fuentes)
-                mensaje_al_usuario = respuesta_original + texto_fuentes
-            else:
-                mensaje_al_usuario = respuesta_original
+                    mensaje_al_usuario = respuesta_original
 
-            _editar_con_markdown(msg, mensaje_al_usuario, message.chat.id)
-            # Actualizar historial solo con la respuesta original (sin fuentes) para no ensuciar la memoria
-            historial.append((texto_original, respuesta_original))
-            if len(historial) > 5:
-                historial.pop(0)
-            historial_chats[message.chat.id] = historial
-        except Exception as e:
-            bot.edit_message_text(
-                f"❌ Error al consultar: {e}",
-                chat_id=message.chat.id,
-                message_id=msg.message_id,
-            )
+                _editar_con_markdown(msg, mensaje_al_usuario, message.chat.id)
+                # Actualizar historial solo con la respuesta original (sin fuentes) para no ensuciar la memoria.
+                # No limitamos la longitud del historial aquí para que la IA pueda mantener contexto amplio;
+                # el usuario puede limpiarlo en cualquier momento con /limpiar, /reset u /olvidar.
+                historial.append((texto_original, respuesta_original))
+                historial_chats[message.chat.id] = historial
+                ultimo_error = None
+                break
+            except Exception as e:
+                ultimo_error = e
+                if intento < intentos_max:
+                    time.sleep(1)
+                else:
+                    bot.edit_message_text(
+                        f"❌ Error al consultar tras varios intentos: {e}",
+                        chat_id=message.chat.id,
+                        message_id=msg.message_id,
+                    )
 
 
 def _editar_con_markdown(msg, texto, chat_id):
