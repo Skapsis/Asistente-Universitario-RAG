@@ -339,6 +339,29 @@ def obtener_clases_hoy():
         return f"❌ Error al leer el horario: {e}. Revisa que el Excel exista y tenga el formato esperado (columnas Día, Hora, Materia)."
 
 
+def enviar_mensaje_largo(chat_id, texto):
+    """
+    Envía un texto que puede superar el límite de 4096 caracteres de Telegram,
+    dividiéndolo en fragmentos y enviando cada uno en un mensaje secuencial.
+    """
+    MAX_LENGTH = 4000
+    if not texto or len(texto) <= MAX_LENGTH:
+        if texto:
+            try:
+                bot.send_message(chat_id, texto, parse_mode="Markdown")
+            except Exception:
+                bot.send_message(chat_id, texto)
+        return
+    pos = 0
+    while pos < len(texto):
+        fragmento = texto[pos : pos + MAX_LENGTH]
+        pos += MAX_LENGTH
+        try:
+            bot.send_message(chat_id, fragmento, parse_mode="Markdown")
+        except Exception:
+            bot.send_message(chat_id, fragmento)
+
+
 # -------- MANEJADORES DE TELEGRAM --------
 
 @bot.message_handler(commands=["start"])
@@ -447,7 +470,19 @@ def manejador_maestro(message):
                 else:
                     mensaje_al_usuario = respuesta_original
 
-                _editar_con_markdown(msg, mensaje_al_usuario, message.chat.id)
+                # Si la respuesta supera el límite de Telegram (4096), dividir en varios mensajes
+                if len(mensaje_al_usuario) <= 4000:
+                    _editar_con_markdown(msg, mensaje_al_usuario, message.chat.id)
+                else:
+                    try:
+                        bot.edit_message_text(
+                            "✅ Respuesta a continuación:",
+                            chat_id=message.chat.id,
+                            message_id=msg.message_id,
+                        )
+                    except Exception:
+                        pass
+                    enviar_mensaje_largo(message.chat.id, mensaje_al_usuario)
                 # Actualizar historial solo con la respuesta original (sin fuentes) para no ensuciar la memoria.
                 # No limitamos la longitud del historial aquí para que la IA pueda mantener contexto amplio;
                 # el usuario puede limpiarlo en cualquier momento con /limpiar, /reset u /olvidar.
