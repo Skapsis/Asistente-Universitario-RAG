@@ -7,9 +7,8 @@ import os
 from datetime import datetime
 import time
 import glob
-import threading
 
-from flask import Flask
+from keep_alive import keep_alive
 import pandas as pd
 import requests
 import urllib3
@@ -32,20 +31,6 @@ from langchain_classic.chains import ConversationalRetrievalChain
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
-
-# Servidor web mínimo para Render: debe responder en un puerto o Render mata el proceso
-app = Flask(__name__)
-
-
-@app.route("/")
-def index():
-    return "🤖 Bot Universitario RAG Activo"
-
-
-def run_web():
-    """Ejecuta el servidor Flask en el puerto que exige Render (variable PORT)."""
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port, use_reloader=False)
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 MOODLE_URL = os.getenv("MOODLE_URL", "https://grado.pol.una.py").rstrip("/")
@@ -533,7 +518,6 @@ if __name__ == "__main__":
         print("Configurando RAG (carga de PDFs desde Fuente_Materias)...")
         configurar_rag()
         print("🤖 Bot iniciado y listo en la nube...")
-        # Render exige que la app responda en un puerto; Flask corre en un hilo para no bloquear el bot
-        threading.Thread(target=run_web, daemon=True).start()
+        keep_alive()
         print("Bot en ejecución (Long Polling). Detén con Ctrl+C.")
         bot.infinity_polling()
