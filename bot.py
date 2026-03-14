@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 
 """
 Bot de Telegram - Asistente Universitario UNA (Facultad Politécnica).
@@ -8,7 +10,6 @@ from datetime import datetime
 import time
 import glob
 
-from keep_alive import keep_alive
 import pandas as pd
 import requests
 import urllib3
@@ -518,6 +519,5 @@ if __name__ == "__main__":
         print("Configurando RAG (carga de PDFs desde Fuente_Materias)...")
         configurar_rag()
         print("🤖 Bot iniciado y listo en la nube...")
-        keep_alive()
         print("Bot en ejecución (Long Polling). Detén con Ctrl+C.")
         bot.infinity_polling()
