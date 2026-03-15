@@ -6,6 +6,7 @@ Bot de Telegram - Asistente Universitario UNA (Facultad Politécnica).
 Incluye: Moodle (tareas), Horarios desde Excel, RAG con Gemini (PDFs).
 """
 import os
+import traceback
 from datetime import datetime
 import time
 import glob
@@ -517,14 +518,17 @@ def _editar_con_markdown(msg, texto, chat_id):
 
 
 if __name__ == "__main__":
-    if not TELEGRAM_TOKEN:
-        print("❌ Falta TELEGRAM_BOT_TOKEN en el archivo .env", flush=True)
-    else:
+    try:
+        print("Iniciando carga de variables y bot...", flush=True)
+        if not TELEGRAM_TOKEN:
+            print("❌ Falta TELEGRAM_BOT_TOKEN en el archivo .env", flush=True)
+            raise SystemExit(1)
         print("Configurando RAG (carga de PDFs desde Fuente_Materias)...", flush=True)
         configurar_rag()
         print("🤖 Bot iniciado y listo en la nube...", flush=True)
         print("Iniciando polling de Telegram...", flush=True)
-        try:
-            bot.infinity_polling()
-        except Exception as e:
-            print(f"Error crítico en el bot: {e}", flush=True)
+        bot.infinity_polling()
+    except Exception as e:
+        print(f"🚨 ERROR FATAL QUE MATÓ AL BOT: {e}", flush=True)
+        print(traceback.format_exc(), flush=True)
+        raise
