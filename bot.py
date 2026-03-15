@@ -37,9 +37,12 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 MOODLE_URL = os.getenv("MOODLE_URL", "https://grado.pol.una.py").rstrip("/")
 MOODLE_WSTOKEN = os.getenv("MOODLE_WSTOKEN")
 
+# --- Rutas relativas al directorio del proyecto (compatible con Render/Linux y local) ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FUENTE_MATERIAS = os.path.join(BASE_DIR, "Fuente_Materias")
+CARPETA_HORARIOS = os.path.join(BASE_DIR, "Fuente_Materias", "Horarios")
+
 # --- Fase 2: Horarios desde CSV ---
-# Carpeta donde se encuentra(n) los CSV de horarios.
-CARPETA_HORARIOS = "/Users/ivanvazquez/Cva-Fpuna/Fuente_Materias/Horarios"
 # Nombres de columnas del CSV (ajusta si tu archivo usa otros nombres)
 # Ejemplo típico: una columna con el día (Lunes, Martes...) y otra con hora/materia
 COLUMNA_DIA = "Día"          # o "Dia", "dia", "day"
@@ -123,18 +126,21 @@ def configurar_rag():
     """
     global rag_chain, vectorstore
     try:
-        loader = PyPDFDirectoryLoader("Fuente_Materias")
+        print("Cargando documentos...")
+        loader = PyPDFDirectoryLoader(FUENTE_MATERIAS)
         docs = loader.load()
         if not docs or len(docs) == 0:
             print("⚠️ RAG: La carpeta Fuente_Materias está vacía o no tiene PDFs.")
             return None
 
+        print("Dividiendo texto en fragmentos...")
         splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
         splits = splitter.split_documents(docs)
         if not splits or len(splits) == 0:
             print("⚠️ No se encontró texto seleccionable en los PDFs de Fuente_Materias.")
             return None
 
+        print("Creando VectorStore...")
         # Embeddings locales con HuggingFace para evitar errores 404 de Google.
         embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         vectorstore = FAISS.from_documents(
@@ -519,5 +525,8 @@ if __name__ == "__main__":
         print("Configurando RAG (carga de PDFs desde Fuente_Materias)...")
         configurar_rag()
         print("🤖 Bot iniciado y listo en la nube...")
-        print("Bot en ejecución (Long Polling). Detén con Ctrl+C.")
-        bot.infinity_polling()
+        print("Iniciando polling de Telegram...")
+        try:
+            bot.infinity_polling()
+        except Exception as e:
+            print(f"Error crítico en el bot: {e}")
