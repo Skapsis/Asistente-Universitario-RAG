@@ -19,9 +19,8 @@ import telebot
 # RAG (Fase 3): LangChain + Gemini + FAISS + memoria conversacional
 from langchain_community.document_loaders import PyPDFDirectoryLoader, PyPDFLoader
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
@@ -126,23 +125,22 @@ def configurar_rag():
     """
     global rag_chain, vectorstore
     try:
-        print("Cargando documentos...")
+        print("Cargando documentos...", flush=True)
         loader = PyPDFDirectoryLoader(FUENTE_MATERIAS)
         docs = loader.load()
         if not docs or len(docs) == 0:
-            print("⚠️ RAG: La carpeta Fuente_Materias está vacía o no tiene PDFs.")
+            print("⚠️ RAG: La carpeta Fuente_Materias está vacía o no tiene PDFs.", flush=True)
             return None
 
-        print("Dividiendo texto en fragmentos...")
+        print("Dividiendo texto en fragmentos...", flush=True)
         splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
         splits = splitter.split_documents(docs)
         if not splits or len(splits) == 0:
-            print("⚠️ No se encontró texto seleccionable en los PDFs de Fuente_Materias.")
+            print("⚠️ No se encontró texto seleccionable en los PDFs de Fuente_Materias.", flush=True)
             return None
 
-        print("Creando VectorStore...")
-        # Embeddings locales con HuggingFace para evitar errores 404 de Google.
-        embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        print("Creando VectorStore (embeddings vía API Google)...", flush=True)
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
         vectorstore = FAISS.from_documents(
             splits, embeddings
         )  # global para poder añadir PDFs desde el manejador de documentos
@@ -200,9 +198,9 @@ Pregunta reformulada:"""
             combine_docs_chain_kwargs={"prompt": QA_PROMPT},
             return_source_documents=True,
         )
-        print("✅ RAG configurado correctamente (Gemini + FAISS + memoria conversacional).")
+        print("✅ RAG configurado correctamente (Gemini + FAISS + memoria conversacional).", flush=True)
     except Exception as e:
-        print(f"⚠️ RAG no pudo configurarse: {e}")
+        print(f"⚠️ RAG no pudo configurarse: {e}", flush=True)
 
 
 @bot.message_handler(content_types=["document"])
@@ -520,13 +518,13 @@ def _editar_con_markdown(msg, texto, chat_id):
 
 if __name__ == "__main__":
     if not TELEGRAM_TOKEN:
-        print("❌ Falta TELEGRAM_BOT_TOKEN en el archivo .env")
+        print("❌ Falta TELEGRAM_BOT_TOKEN en el archivo .env", flush=True)
     else:
-        print("Configurando RAG (carga de PDFs desde Fuente_Materias)...")
+        print("Configurando RAG (carga de PDFs desde Fuente_Materias)...", flush=True)
         configurar_rag()
-        print("🤖 Bot iniciado y listo en la nube...")
-        print("Iniciando polling de Telegram...")
+        print("🤖 Bot iniciado y listo en la nube...", flush=True)
+        print("Iniciando polling de Telegram...", flush=True)
         try:
             bot.infinity_polling()
         except Exception as e:
-            print(f"Error crítico en el bot: {e}")
+            print(f"Error crítico en el bot: {e}", flush=True)
