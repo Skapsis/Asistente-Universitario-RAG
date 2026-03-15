@@ -6,6 +6,7 @@ Bot de Telegram - Asistente Universitario UNA (Facultad Politécnica).
 Incluye: Moodle (tareas), Horarios desde Excel, RAG con Gemini (PDFs).
 """
 import os
+import sys
 import traceback
 from datetime import datetime
 import time
@@ -33,7 +34,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN") or os.getenv("TELEGRAM_BOT_TOKEN")
 MOODLE_URL = os.getenv("MOODLE_URL", "https://grado.pol.una.py").rstrip("/")
 MOODLE_WSTOKEN = os.getenv("MOODLE_WSTOKEN")
 
@@ -55,6 +56,15 @@ vectorstore = None
 
 # Memoria conversacional: historial por chat_id (lista de (pregunta, respuesta))
 historial_chats = {}
+
+# --- DEBUG: variables de entorno visibles en Render ---
+print("--- DEBUG DE VARIABLES DE ENTORNO ---", flush=True)
+print(f"Variables detectadas: {list(os.environ.keys())}", flush=True)
+if not TELEGRAM_TOKEN:
+    print("❌ ERROR: TELEGRAM_TOKEN es None. El bot se detendrá aquí para evitar un bucle de fallos.", flush=True)
+    sys.exit(1)
+else:
+    print("✅ TELEGRAM_TOKEN cargado correctamente.", flush=True)
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
